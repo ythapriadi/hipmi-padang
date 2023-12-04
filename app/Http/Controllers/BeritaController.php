@@ -110,6 +110,8 @@ class BeritaController extends Controller
         return redirect()->route('data.berita');
     }
 
+
+
     // public function print(Request $r){
     //     if(isset($r->mulai)){
     //         $data['tb_berita'] = DB::table('tb_berita')

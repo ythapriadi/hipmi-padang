@@ -13,7 +13,7 @@ BPC PADANG | BLOG
                     <li><a href="{{ route('index') }}">Home</a></li>
                     <li><a href="{{ route('blog') }}">Blog</a></li>
                 </ol>
-                <h2>Blog Single</h2>
+                <h2>{{ $tb_berita->judul_berita }}</h2>
             </div>
         </section>
         <!-- End Breadcrumbs -->
@@ -61,7 +61,7 @@ BPC PADANG | BLOG
 
                             </article><!-- End blog entry -->
 
-                            <div class="blog-author d-flex align-items-center">
+                            {{-- <div class="blog-author d-flex align-items-center">
                                 <img src="assets/img/blog/blog-author.jpg" class="rounded-circle float-left" alt="">
                                 <div>
                                     <h4>Jane Smith</h4>
@@ -78,9 +78,10 @@ BPC PADANG | BLOG
                                         ut unde voluptas.
                                     </p>
                                 </div>
-                            </div><!-- End blog author bio -->
+                            </div> --}}
+                            <!-- End blog author bio -->
 
-                            <div class="blog-comments">
+                            {{-- <div class="blog-comments">
 
                                 <h4 class="comments-count">8 Comments</h4>
 
@@ -245,7 +246,8 @@ BPC PADANG | BLOG
 
                                 </div>
 
-                            </div><!-- End blog comments -->
+                            </div> --}}
+                            <!-- End blog comments -->
 
                         </div><!-- End blog entries list -->
                         <div class="col-lg-4">
@@ -270,7 +272,7 @@ BPC PADANG | BLOG
                                     </ul>
                                 </div><!-- End sidebar categories-->
 
-                                <h3 class="sidebar-title">Recent Posts</h3>
+                                {{-- <h3 class="sidebar-title">Recent Posts</h3>
                                 <div class="sidebar-item recent-posts">
                                     <div class="post-item clearfix">
                                         <img src="assets/img/blog/blog-recent-1.jpg" alt="">
@@ -303,7 +305,8 @@ BPC PADANG | BLOG
                                         <time datetime="2020-01-01">Jan 1, 2020</time>
                                     </div>
 
-                                </div><!-- End sidebar recent posts-->
+                                </div> --}}
+                                <!-- End sidebar recent posts-->
 
                                 <h3 class="sidebar-title">Tags</h3>
                                 <div class="sidebar-item tags">

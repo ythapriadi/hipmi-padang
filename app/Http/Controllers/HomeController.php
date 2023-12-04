@@ -55,6 +55,7 @@ class HomeController extends Controller
         ->orderBy('id_berita', 'desc')
         ->get();
         // dd($data['berita']);
+        $data['tb_berita'] = DB::table('tb_berita')->latest()->take(5)->get();
 
         return view('frontend.blog', $data);
     }
